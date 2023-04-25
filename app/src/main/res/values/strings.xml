@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PlantApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sp">The best plant online store app of the century for your needs!</string>
+    <string name="sp1">We provide high quality plant just for you</string>
+    <string name="st3">Let\'s shop your favourite plants with Potea now!</string>
+    <string name="continue_with_facebook">Continue with facebook</string>
+    <string name="fc">Continue with Facebook</string>
+    <string name="gg">Continue with Google</string>
+    <string name="ap">Continue with Apple</string>
+    <string name="or">or</string>
+    <string name="st">Sign in with password</string>
+    <string name="dont">Don\'t have an account?</string>
+    <string name="sign">Sign up</string>
+    <string name="select_the_payment_method_you_want_to_use">Select the payment method you want to use</string>
+</resources>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".LogInAccountFragment">
+
+<ImageView
+    android:layout_margin="10dp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:id="@+id/back"
+    android:src="@drawable/baseline_arrow_back_24"/>
+        <LinearLayout
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="120dp"
+                android:src="@drawable/leaf"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/font1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="otea"
+                android:textSize="65sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/font1"
+            android:text="Login to Your Account"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/email_loginn"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:fontFamily="@font/font1"
+                android:hint="Email"
+                android:textSize="15sp"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/password_login"
+                android:layout_width="350dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="50dp"
+                android:drawablePadding="10dp"
+                android:ems="10"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:fontFamily="@font/font1"
+                android:hint="Password"
+                android:textSize="15sp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+
+        <CheckBox
+            android:layout_marginTop="17dp"
+            android:id="@+id/checkBox_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remember me"
+            android:fontFamily="@font/font1"
+            android:layout_gravity="center_horizontal" />
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            app:cornerRadius="50dp"
+            android:id="@+id/signinnp"
+            android:backgroundTint="#3AAC3E"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_gravity="center">
+        </com.google.android.material.button.MaterialButton>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="or continue with"
+            android:textSize="16sp"
+            android:fontFamily="@font/font1"
+            android:gravity="center_horizontal"/>
+
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/google"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="50dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/apple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:fontFamily="@font/font1"/>
+
+            <TextView
+                android:id="@+id/signup_text"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font1"
+                android:textColor="#1BD123"
+                android:layout_weight="1"
+                android:text="Sign in" />
+        </LinearLayout>
+    </LinearLayout>
